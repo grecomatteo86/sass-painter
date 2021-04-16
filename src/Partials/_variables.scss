@@ -3,13 +3,13 @@ $mainBlue: #1473e6;
 $mainColor400: #0d66d0;
 $white: #fff;
 // Font
-$fontSize300: 18px; //normal
+$fontSize300: 16px; //normal,p in main
 $fontSize400: 20px; //p in hero
-$fontSize500: 28px;
+$fontSize500: 33px; //h2 in main
 $fontSize600: 40px; //h2 in hero
 // Containers
 $container400: 1200px;
-$container300: 800px;
-$container200: 600px;
+$container300: 700px;  //first container 4 main (normal)
+$container200: 600px; //container 4 hero
 // Buttons
 $radius:25px;
