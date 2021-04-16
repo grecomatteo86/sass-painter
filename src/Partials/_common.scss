@@ -18,15 +18,17 @@ p{
   border-radius: $radius;
   border: none;
 }
+// Margin Top
+@for $i from 1 through 5 { .mt-#{$i} {
+margin-top: 5px * $i; }
+}
 // Mix
 .container{
-  margin: 0 auto;
   max-width: $container400;
   &.container_s{
     max-width: $container300;
   }
   &.container_xs{
     max-width: $container200;
-    background-color: red;
   }
 }

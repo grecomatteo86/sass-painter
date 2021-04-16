@@ -1,23 +1,30 @@
 .hero_section{
   height: 700px;
   background-image: url('https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440');
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  & .container_xs{
+    margin-left: 60px;
+  }
   & img{
     width: 60px;
   }
   & h2,p{
     color: $white;
   }
-}
-.btn_l{
-  color: $white;
-  background-color: $mainBlue;
-  min-width: 150px;
-  height: 45px;
-  font-size: $fontSize400;
-  font-weight: 500;
-  &.xl{
-    min-width: 200px;
-    background-color: transparent;
-    border: 2px solid $white;
+  & .btn_l{
+    color: $white;
+    background-color: $mainBlue;
+    min-width: 150px;
+    height: 45px;
+    font-size: $fontSize400;
+    font-weight: 500;
+    margin-right: 20px;
+    &.xl{
+      min-width: 200px;
+      background-color: transparent;
+      border: 2px solid $white;
+    }
   }
 }

@@ -21,8 +21,27 @@ p {
   border: none;
 }
 
+.mt-1 {
+  margin-top: 5px;
+}
+
+.mt-2 {
+  margin-top: 10px;
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
+.mt-5 {
+  margin-top: 25px;
+}
+
 .container {
-  margin: 0 auto;
   max-width: 1200px;
 }
 .container.container_s {
@@ -30,12 +49,17 @@ p {
 }
 .container.container_xs {
   max-width: 600px;
-  background-color: red;
 }
 
 .hero_section {
   height: 700px;
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hero_section .container_xs {
+  margin-left: 60px;
 }
 .hero_section img {
   width: 60px;
@@ -43,16 +67,16 @@ p {
 .hero_section h2, .hero_section p {
   color: #fff;
 }
-
-.btn_l {
+.hero_section .btn_l {
   color: #fff;
   background-color: #1473e6;
   min-width: 150px;
   height: 45px;
   font-size: 20px;
   font-weight: 500;
+  margin-right: 20px;
 }
-.btn_l.xl {
+.hero_section .btn_l.xl {
   min-width: 200px;
   background-color: transparent;
   border: 2px solid #fff;
