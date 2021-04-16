@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+// Mix
+.container{
+  margin: 0 auto;
+  max-width: $container400;
+  &.container_small{
+    max-width: $container300;
+  }
+}
