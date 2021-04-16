@@ -5,6 +5,19 @@
     width: 60px;
   }
   & h2,p{
-    color: $textHeaderColor;
+    color: $white;
+  }
+}
+.btn_l{
+  color: $white;
+  background-color: $mainBlue;
+  min-width: 150px;
+  height: 45px;
+  font-size: $fontSize400;
+  font-weight: 500;
+  &.xl{
+    min-width: 200px;
+    background-color: transparent;
+    border: 2px solid $white;
   }
 }

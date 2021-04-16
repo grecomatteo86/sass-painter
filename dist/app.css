@@ -16,6 +16,11 @@ p {
   font-size: 20px;
 }
 
+.btn {
+  border-radius: 25px;
+  border: none;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -37,4 +42,18 @@ p {
 }
 .hero_section h2, .hero_section p {
   color: #fff;
+}
+
+.btn_l {
+  color: #fff;
+  background-color: #1473e6;
+  min-width: 150px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn_l.xl {
+  min-width: 200px;
+  background-color: transparent;
+  border: 2px solid #fff;
 }
