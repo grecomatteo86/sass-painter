@@ -8,15 +8,33 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
 }
-.container.container_small {
+.container.container_s {
   max-width: 800px;
+}
+.container.container_xs {
+  max-width: 600px;
+  background-color: red;
 }
 
 .hero_section {
   height: 700px;
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+}
+.hero_section img {
+  width: 60px;
+}
+.hero_section h2, .hero_section p {
+  color: #fff;
 }

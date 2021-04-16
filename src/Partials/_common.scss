@@ -6,11 +6,22 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+// Typo
+h2{
+  font-size: $fontSize600;
+}
+p{
+  font-size: $fontSize400;
+}
 // Mix
 .container{
   margin: 0 auto;
   max-width: $container400;
-  &.container_small{
+  &.container_s{
     max-width: $container300;
+  }
+  &.container_xs{
+    max-width: $container200;
+    background-color: red;
   }
 }

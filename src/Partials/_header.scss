@@ -1,4 +1,10 @@
 .hero_section{
   height: 700px;
   background-image: url('https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440');
+  & img{
+    width: 60px;
+  }
+  & h2,p{
+    color: $textHeaderColor;
+  }
 }
