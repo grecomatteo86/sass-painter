@@ -7,9 +7,6 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 // Typo
-h2{
-  font-size: $fontSize600;
-}
 p{
   font-size: $fontSize400;
 }
@@ -21,6 +18,10 @@ p{
 // Margin Top
 @for $i from 1 through 15 { .mt-#{$i} {
 margin-top: 5px * $i; }
+}
+//Margin left
+@for $i from 1 through 15 { .ml-#{$i} {
+margin-left: 5px * $i; }
 }
 // Mix
 .container{

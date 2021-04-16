@@ -6,6 +6,9 @@
   align-items: center;
   & .container_xs{
     margin-left: 60px;
+    h2{
+      font-size: $fontSize600;
+    }
   }
   & img{
     width: 60px;

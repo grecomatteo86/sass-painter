@@ -8,10 +8,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h2 {
-  font-size: 40px;
-}
-
 p {
   font-size: 20px;
 }
@@ -81,8 +77,68 @@ p {
   margin-top: 75px;
 }
 
+.ml-1 {
+  margin-left: 5px;
+}
+
+.ml-2 {
+  margin-left: 10px;
+}
+
+.ml-3 {
+  margin-left: 15px;
+}
+
+.ml-4 {
+  margin-left: 20px;
+}
+
+.ml-5 {
+  margin-left: 25px;
+}
+
+.ml-6 {
+  margin-left: 30px;
+}
+
+.ml-7 {
+  margin-left: 35px;
+}
+
+.ml-8 {
+  margin-left: 40px;
+}
+
+.ml-9 {
+  margin-left: 45px;
+}
+
+.ml-10 {
+  margin-left: 50px;
+}
+
+.ml-11 {
+  margin-left: 55px;
+}
+
+.ml-12 {
+  margin-left: 60px;
+}
+
+.ml-13 {
+  margin-left: 65px;
+}
+
+.ml-14 {
+  margin-left: 70px;
+}
+
+.ml-15 {
+  margin-left: 75px;
+}
+
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
 }
 .container.container_s {
   max-width: 700px;
@@ -100,6 +156,9 @@ p {
 }
 .hero_section .container_xs {
   margin-left: 60px;
+}
+.hero_section .container_xs h2 {
+  font-size: 40px;
 }
 .hero_section img {
   width: 60px;
@@ -122,13 +181,31 @@ p {
   border: 2px solid #fff;
 }
 
-.main_section .container_s {
-  margin: 0 auto;
-}
 .main_section h2 {
   font-size: 33px;
 }
 .main_section p {
   font-size: 16px;
+}
+.main_section .container_s {
+  margin: 0 auto;
   text-align: center;
+}
+.main_section .container:not(:first-child) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.main_section .container:not(:first-child) .img_container {
+  flex-basis: 55%;
+  height: 390px;
+}
+.main_section .container:not(:first-child) .img_container img {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.main_section .container:not(:first-child) .text_container {
+  flex-basis: 45%;
 }

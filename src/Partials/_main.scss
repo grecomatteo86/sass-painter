@@ -1,12 +1,30 @@
 .main_section{
-  & .container_s{
-    margin: 0 auto;
-  }
   & h2{
     font-size: $fontSize500;
   }
   & p{
     font-size: $fontSize300;
-    text-align: center;
+  }
+  & .container_s{
+    margin: $marginAuto;
+    text-align: $textCenter;
+  }
+  & .container:not(:first-child){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: $marginAuto;
+    & .img_container{
+      flex-basis: 55%;
+      height: 390px;
+      & img{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+      }
+    }
+    & .text_container{
+      flex-basis: 45%;
+    }
   }
 }
