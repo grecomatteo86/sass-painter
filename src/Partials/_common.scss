@@ -19,9 +19,13 @@ p{
 @for $i from 1 through 15 { .mt-#{$i} {
 margin-top: 5px * $i; }
 }
-//Margin left
+//Margin Left
 @for $i from 1 through 15 { .ml-#{$i} {
 margin-left: 5px * $i; }
+}
+//Margin Right
+@for $i from 1 through 15 { .mr-#{$i} {
+margin-right: 5px * $i; }
 }
 // Mix
 .container{

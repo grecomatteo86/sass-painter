@@ -1,30 +1,42 @@
 .main_section{
-  & h2{
-    font-size: $fontSize500;
-  }
-  & p{
-    font-size: $fontSize300;
-  }
-  & .container_s{
-    margin: $marginAuto;
-    text-align: $textCenter;
-  }
-  & .container:not(:first-child){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: $marginAuto;
-    & .img_container{
-      flex-basis: 55%;
-      height: 390px;
-      & img{
-        width: 100%;
-        height: 100%;
-        padding: 20px;
+  &>.first_section{
+    & h2{
+      font-size: $fontSize500;
+    }
+    & p{
+      font-size: $fontSize300;
+    }
+    & .container_s{
+      margin: $marginAuto;
+      text-align: $textCenter;
+    }
+    //repeated_container
+    & .container:not(:first-child){
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: $marginAuto;
+      & .img_container{
+        flex-basis: 55%;
+        height: 390px;
+        & img{
+          width: 100%;
+          height: 100%;
+          padding: 20px;
+        }
+      }
+      & .text_container{
+        flex-basis: 45%;
+        & a{
+          display: inline-block;
+          text-decoration: $underlineNone;
+          font-size: $fontSize300;
+          color: $mainBlue;
+        }
       }
     }
-    & .text_container{
-      flex-basis: 45%;
+    & .container:nth-child(2n + 1){
+      flex-direction: row-reverse;
     }
   }
 }
