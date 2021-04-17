@@ -31,7 +31,11 @@
           display: inline-block;
           text-decoration: $underlineNone;
           font-size: $fontSize300;
-          color: $mainBlue;
+          color: $mainBlue300;
+          &:hover{
+            color: $mainBlue400;
+            text-decoration: underline;
+          }
         }
       }
     }

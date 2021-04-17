@@ -235,10 +235,17 @@ p {
   font-weight: 500;
   margin-right: 20px;
 }
+.hero_section .btn_l:hover {
+  background-color: #0d66d0;
+}
 .hero_section .btn_l.xl {
   min-width: 200px;
   background-color: transparent;
   border: 2px solid #fff;
+}
+.hero_section .btn_l.xl:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .main_section > .first_section h2 {
@@ -274,6 +281,10 @@ p {
   text-decoration: none;
   font-size: 16px;
   color: #1473e6;
+}
+.main_section > .first_section .container:not(:first-child) .text_container a:hover {
+  color: #0d66d0;
+  text-decoration: underline;
 }
 .main_section > .first_section .container:nth-child(2n+1) {
   flex-direction: row-reverse;
