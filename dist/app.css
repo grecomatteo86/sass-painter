@@ -17,6 +17,66 @@ p {
   border: none;
 }
 
+.ms-1 {
+  margin: 0 5px;
+}
+
+.ms-2 {
+  margin: 0 10px;
+}
+
+.ms-3 {
+  margin: 0 15px;
+}
+
+.ms-4 {
+  margin: 0 20px;
+}
+
+.ms-5 {
+  margin: 0 25px;
+}
+
+.ms-6 {
+  margin: 0 30px;
+}
+
+.ms-7 {
+  margin: 0 35px;
+}
+
+.ms-8 {
+  margin: 0 40px;
+}
+
+.ms-9 {
+  margin: 0 45px;
+}
+
+.ms-10 {
+  margin: 0 50px;
+}
+
+.ms-11 {
+  margin: 0 55px;
+}
+
+.ms-12 {
+  margin: 0 60px;
+}
+
+.ms-13 {
+  margin: 0 65px;
+}
+
+.ms-14 {
+  margin: 0 70px;
+}
+
+.ms-15 {
+  margin: 0 75px;
+}
+
 .mt-1 {
   margin-top: 5px;
 }
@@ -288,4 +348,31 @@ p {
 }
 .main_section > .first_section .container:nth-child(2n+1) {
   flex-direction: row-reverse;
+}
+
+.navBar_section {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar_section .logo_section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navBar_section .logo_section img {
+  height: 30%;
+}
+.navBar_section .logo_section p {
+  font-size: 14px;
+  color: #f7171b;
+  font-weight: 500;
+}
+.navBar_section .links_section {
+  background-color: red;
+}
+.navBar_section .search_section {
+  background-color: green;
 }

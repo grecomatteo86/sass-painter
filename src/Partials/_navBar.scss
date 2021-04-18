@@ -1,0 +1,26 @@
+.navBar_section{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & .logo_section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & img{
+      height: 30%;
+    }
+    & p{
+      font-size:$fontSize200;
+      color: $adobeColorRed;
+      font-weight: 500;
+    }
+  }
+  & .links_section{
+    background-color: red;
+  }
+  & .search_section{
+    background-color: green;
+  }
+}

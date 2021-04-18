@@ -15,6 +15,10 @@ p{
   border-radius: $radius;
   border: none;
 }
+// Margin Sides
+@for $i from 1 through 15 { .ms-#{$i} {
+margin: 0 5px * $i; }
+}
 // Margin Top
 @for $i from 1 through 15 { .mt-#{$i} {
 margin-top: 5px * $i; }
