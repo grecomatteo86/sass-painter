@@ -383,6 +383,13 @@ p {
   color: black;
   margin: 0 20px;
 }
-.navBar_section .search_section {
-  background-color: green;
+.navBar_section .search_section input, .navBar_section .search_section button {
+  border-radius: 15px;
+  padding: 5px;
+}
+.navBar_section .search_section button {
+  margin-right: 15px;
+}
+.navBar_section .search_section input:focus {
+  outline: none;
 }

@@ -33,6 +33,15 @@
     }
   }
   & .search_section{
-    background-color: green;
+    & input, button{
+      border-radius: 15px;
+      padding: 5px;
+    }
+    & button{
+      margin-right: 15px;
+    }
+    & input:focus {
+      outline: none;
+    }
   }
 }
