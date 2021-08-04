@@ -370,8 +370,18 @@ p {
   color: #f7171b;
   font-weight: 500;
 }
-.navBar_section .links_section {
-  background-color: red;
+.navBar_section .links_section .links_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navBar_section .links_section .links_list li {
+  list-style: none;
+}
+.navBar_section .links_section .links_list li a {
+  text-decoration: none;
+  color: black;
+  margin: 0 20px;
 }
 .navBar_section .search_section {
   background-color: green;
